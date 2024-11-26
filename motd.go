@@ -8,7 +8,7 @@ func generate_motd(weather Weather) string {
 	}
 	live := weather.Lives[0]
 	motd := fmt.Sprintf(`
-    当前时间：%s
+    预报更新时间：%s
     城市/区县：%s
     天气状况：%s
     温度：%s°C	    湿度：%s%%		
