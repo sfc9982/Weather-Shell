@@ -18,9 +18,9 @@ func generate_motd(weather Weather) string {
 		live.City,
 		live.Weather,
 		live.Temperature,
+		live.Humidity,
 		live.Winddirection,
 		live.Windpower,
-		live.Humidity,
 	)
 	return motd
 }
