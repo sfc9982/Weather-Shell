@@ -32,6 +32,7 @@ func motd_weather(city string) string {
 	var result string
 	result += motd
 	result += WEATHER_SYMBOL_WEGO[weather.Lives[0].Weather]
+	result += "\n"
 
 	fmt.Println(result)
 
