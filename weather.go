@@ -93,7 +93,7 @@ func get_weather(city string) Weather {
 	return api_request(url)
 }
 
-// 获取当日天气预报信息
+// 获取天气预报信息
 func get_forecast(city string) Weather {
 	url := build_url(city, "all")
 	return api_request(url)
